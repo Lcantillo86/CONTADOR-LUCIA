@@ -1,0 +1,42 @@
+body{
+margin:0;
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background: #f4f4f4;
+
+font-family:"Lucida sans", sans-serif;
+
+}
+
+.contenedor{
+    text-align:center;
+}
+
+#contador{
+    font-size:80px;
+    font-weight:bold;
+    color:black;
+    margin: 20px;
+}
+
+.botones{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    opacity:0.8;
+}
